@@ -1,4 +1,4 @@
-package com.cnc.restclient.request;
+package com.cnc.httpclient.request;
 
 import org.apache.http.HttpEntity;
 

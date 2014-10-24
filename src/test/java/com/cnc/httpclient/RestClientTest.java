@@ -1,14 +1,15 @@
-package com.cnc.restclient;
+package com.cnc.httpclient;
 
 import java.net.URI;
 import java.net.URISyntaxException;
 
 import org.junit.Test;
 
-import com.cnc.restclient.request.Request;
-import com.cnc.restclient.request.RequestBuilder;
-import com.cnc.restclient.request.Request.VERB;
-import com.cnc.restclient.response.Response;
+import com.cnc.httpclient.RestClient;
+import com.cnc.httpclient.request.Request;
+import com.cnc.httpclient.request.RequestBuilder;
+import com.cnc.httpclient.request.Request.VERB;
+import com.cnc.httpclient.response.Response;
 
 public class RestClientTest {
    @Test

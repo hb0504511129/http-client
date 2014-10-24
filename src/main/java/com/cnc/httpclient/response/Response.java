@@ -1,4 +1,4 @@
-package com.cnc.restclient.response;
+package com.cnc.httpclient.response;
 
 import java.util.Arrays;
 import java.util.List;
@@ -10,7 +10,7 @@ import org.joda.time.DateTime;
 import org.joda.time.Interval;
 import org.json.JSONObject;
 
-import com.cnc.restclient.RestClient;
+import com.cnc.httpclient.RestClient;
 
 public class Response {
    final static Logger log = Logger.getLogger(Response.class);

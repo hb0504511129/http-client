@@ -1,4 +1,4 @@
-package com.cnc.restclient.request;
+package com.cnc.httpclient.request;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package com.cnc.restclient;
+package com.cnc.httpclient;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -16,8 +16,8 @@ import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
 import org.joda.time.DateTime;
 
-import com.cnc.restclient.request.Request;
-import com.cnc.restclient.response.Response;
+import com.cnc.httpclient.request.Request;
+import com.cnc.httpclient.response.Response;
 
 public class RestClient {
    
