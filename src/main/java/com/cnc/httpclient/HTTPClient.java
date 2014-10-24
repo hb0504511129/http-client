@@ -19,7 +19,7 @@ import org.joda.time.DateTime;
 import com.cnc.httpclient.request.Request;
 import com.cnc.httpclient.response.Response;
 
-public class RestClient {
+public class HTTPClient {
    
    private static CloseableHttpClient httpClient;
    

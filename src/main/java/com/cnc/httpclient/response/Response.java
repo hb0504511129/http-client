@@ -10,7 +10,7 @@ import org.joda.time.DateTime;
 import org.joda.time.Interval;
 import org.json.JSONObject;
 
-import com.cnc.httpclient.RestClient;
+import com.cnc.httpclient.HTTPClient;
 
 public class Response {
    final static Logger log = Logger.getLogger(Response.class);
@@ -26,9 +26,9 @@ public class Response {
       }
       
       // output the text body if there is
-      if (RestClient.isContentTypeText(headers))
+      if (HTTPClient.isContentTypeText(headers))
          log.debug(textBody);
-      if (RestClient.isContentTypeJson(headers)) {
+      if (HTTPClient.isContentTypeJson(headers)) {
          JSONObject json = new JSONObject(textBody);
          log.debug(json.toString(2));
       }
